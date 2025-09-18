@@ -67,7 +67,7 @@ st.markdown("""
 
 
 st.markdown('<h1 class="main-header">📈 Blog Agent</h1>', unsafe_allow_html=True)
-st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Create your professional blogs and posts in minutes using Agentic AI</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Create your professional blogs and posts in minutes on Trending topics using AI</p>', unsafe_allow_html=True)
 
 
 with st.sidebar:
@@ -288,4 +288,5 @@ st.markdown("""
     <p>🚀 Built with Streamlit | 📊 Powered by Reddit API, OpenAI & DALL-E</p>
 </div>
 """, unsafe_allow_html=True)
+
 
