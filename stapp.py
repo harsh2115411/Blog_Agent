@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from agents import trend_hunter, writer, seo_expert, designer
 
-# Page configuration
+
 st.set_page_config(
     page_title="Blog Agent",
     page_icon="📈",
@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better styling with improved text visibility
+
 st.markdown("""
 <style>
     .main-header {
@@ -65,15 +65,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Main title
+
 st.markdown('<h1 class="main-header">📈 Blog Agent</h1>', unsafe_allow_html=True)
 st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 2rem;">Create your professional blogs and posts in minutes using Agentic AI</p>', unsafe_allow_html=True)
 
-# Sidebar for configuration
+
 with st.sidebar:
     st.markdown("### 🎯 Configuration")
     
-    # Subreddit input
+    
     subreddit_name = st.text_input(
         "Enter Subreddit Name:",
         placeholder="e.g., technology, marketing, startup",
@@ -288,3 +288,4 @@ st.markdown("""
     <p>🚀 Built with Streamlit | 📊 Powered by Reddit API, OpenAI & DALL-E</p>
 </div>
 """, unsafe_allow_html=True)
+
