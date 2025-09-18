@@ -8,7 +8,7 @@ load_dotenv()
 reddit = praw.Reddit(
     client_id=os.getenv("REDDIT_CLIENT_ID"),
     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-    user_agent=os.getenv("REDDIT_USER_AGENT"),
+    user_agent=os.getenv("REDDIT_USER_AGENT") or "Blog_assistant/0.1 by chiklu_aaooouuu",
 )
 
 def trend_hunter(subreddit_name):
@@ -80,3 +80,4 @@ def designer(trending_topic):
             "image_url": None,
             "error": str(e)
         }
+
