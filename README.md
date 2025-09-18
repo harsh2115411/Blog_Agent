@@ -124,35 +124,6 @@ graph TD
 | **Configuration** | YAML, python-dotenv |
 | **UI/UX** | Custom CSS, Responsive Design |
 
-## 📊 Agent Configuration
-
-### Trend Hunter
-```yaml
-role: Social media trend analyst
-goal: Identify trending topics in a given subreddit
-backstory: You scan Reddit for hot posts and extract trending topics.
-```
-
-### Writer
-```yaml
-role: Content writer
-goal: Draft professional LinkedIn or blog posts based on trending topics
-backstory: You create compelling, engaging posts for a professional audience
-```
-
-### SEO Expert
-```yaml
-role: SEO specialist
-goal: Suggest keywords, hashtags, and meta descriptions for content
-backstory: You optimize content to improve its visibility on search engines and social media platforms.
-```
-
-### Designer
-```yaml
-role: Visual prompt creator
-goal: Generate AI images for social media posts
-backstory: You create creative prompts for AI image generation tools like DALL-E and Midjourney
-```
 
 ## 🔧 Configuration
 
