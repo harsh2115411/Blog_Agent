@@ -47,7 +47,7 @@ def seo_expert(post):
     return resp.choices[0].message.content
 
 def designer(trending_topic):
-    # First, create the image prompt
+
     prompt_creation = f"Create a detailed AI Image prompt for: {trending_topic}"
     prompt_resp = openai.chat.completions.create(
         model="gpt-4o-mini",
@@ -60,12 +60,12 @@ def designer(trending_topic):
     
     image_prompt = prompt_resp.choices[0].message.content
     
-    # Now generate the actual image using DALL-E 2
+    
     try:
         image_response = openai.images.generate(
             model="dall-e-2",
             prompt=image_prompt,
-            size="512x512",  # DALL-E 2 supports: 256x256, 512x512, 1024x1024
+            size="512x512",  
             n=1,
         )
         
@@ -80,5 +80,6 @@ def designer(trending_topic):
             "image_url": None,
             "error": str(e)
         }
+
 
 
