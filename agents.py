@@ -23,7 +23,7 @@ def writer(trending_topics):
     resp = openai.chat.completions.create(
         model = "gpt-4o-mini",
         messages = [
-            {"role": "system", "content" : "You are a helpful assistant who writes complete professional blogs in a proper structure with headings, subheadings, bullet points, and a conclusion.You are stricted to write the blog within the token limits."},
+            {"role": "system", "content" : "You are a helpful assistant who writes complete professional blogs in a proper structure with headings, subheadings, bullet points, and a conclusion.You are stricted to write the complete blog within the token limits."},
             {"role": "user", "content": prompt}
             ],
         max_tokens = 400,
@@ -38,7 +38,7 @@ def seo_expert(post):
     resp = openai.chat.completions.create(
         model = "gpt-4o-mini",
         messages = [
-            {"role": "system", "content" : "You are an SEO expert who optimizes content for search engines and social media. Provide the optimized content plus keywords and hashtags. You are stricted to write the SEO optimised blog within the token limits."},
+            {"role": "system", "content" : "You are an SEO expert who optimizes content for search engines and social media. Provide the optimized content plus keywords and hashtags. You are stricted to write the complete SEO optimised blog within the token limits."},
             {"role": "user", "content": prompt}
             ],
         max_tokens = 500,
@@ -80,6 +80,7 @@ def designer(trending_topic):
             "image_url": None,
             "error": str(e)
         }
+
 
 
 
