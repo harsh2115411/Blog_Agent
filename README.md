@@ -2,7 +2,7 @@
 ## 🚀 Demo Video: [Click Here](https://drive.google.com/file/d/1faP0xep8XAREIqzOqtaF-PIDS-a9vrnF/view?usp=sharing)
 
 ## Home Page:
-![NotesAI Banner](assets/Blog_Agent.png)
+![Blog_Agent Banner](assets/Blog_Agent.png)
 
 > **Transform trending topics into professional content with the power of AI **
 
