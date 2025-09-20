@@ -2,7 +2,7 @@
 
 
 
-> **Transform trending topics into professional content with the power of AI agents**
+> **Transform trending topics into professional content with the power of AI **
 
 Blog Agent is an intelligent content creation platform that leverages multiple AI agents to automatically discover trending topics on Reddit, generate professional blog posts, optimize them for SEO, and create stunning AI-generated images - all in one seamless workflow.
 
