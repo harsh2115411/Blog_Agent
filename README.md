@@ -53,7 +53,7 @@ Create a `.env` file in the root directory:
 ```env
 REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
-REDDIT_USER_AGENT=BlogAgent/1.0 by YourUsername
+REDDIT_USER_AGENT=Application_name_/1.0 by YourUsername
 OPENAI_API_KEY=your_openai_api_key
 ```
 
