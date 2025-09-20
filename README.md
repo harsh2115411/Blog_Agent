@@ -1,6 +1,9 @@
 # 📈 Blog Agent - AI-Powered Content Creation Platform
 ## 🚀 Demo Video: [Click Here](https://drive.google.com/file/d/1faP0xep8XAREIqzOqtaF-PIDS-a9vrnF/view?usp=sharing)
 
+## Home Page:
+![NotesAI Banner](assets/NotesAI.png)
+
 > **Transform trending topics into professional content with the power of AI **
 
 Blog Agent is an intelligent content creation platform that leverages multiple AI agents to automatically discover trending topics on Reddit, generate professional blog posts, optimize them for SEO, and create stunning AI-generated images - all in one seamless workflow.
