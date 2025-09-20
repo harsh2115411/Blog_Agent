@@ -1,7 +1,6 @@
 # 📈 Blog Agent - AI-Powered Content Creation Platform
 ## 🚀 Live Demo: [Click Here](https://blogagent-harsh-pilania.streamlit.app/)
 
-![Blog Agent Banner](https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=1200&h=300&fit=crop&auto=format)
 
 > **Transform trending topics into professional content with the power of AI agents**
 
